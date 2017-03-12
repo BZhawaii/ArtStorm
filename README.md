@@ -14,7 +14,11 @@
 * Artist looking to put their products out in the community and everyday people who need artist services and want to buy some art.
 
 #Technologies
+* HTML
+* CSS
+* JSX
 * React
+* Redux
 * Ruby On Rails
 * Bootstrap
 
