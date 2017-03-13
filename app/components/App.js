@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
-import { footer } from '../styles/footer.scss';
+import { footer } from '../styles/styles.scss';
 
 const App = ({ children }) =>
     <div>
