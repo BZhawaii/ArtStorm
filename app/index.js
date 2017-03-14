@@ -6,13 +6,30 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import { AppContainer } from 'react-hot-loader';
 import configureStore from './store/configureStore';
 import Root from './containers/Root';
+import NavBar from './components/navBar';
+import Hero from './components/hero';
+import Artists from './components/artists';
+import Parallax from './components/parallax';
+import Team from './components/team';
+import Footer from './components/footer';
+// import SignUp from './components/signup';
+// import SignIn from './components/signin';
+
 
 const store = configureStore();
 const history = syncHistoryWithStore(browserHistory, store);
 
 render(
     <AppContainer>
+        <NavBar/>
+        <Hero/>
+        <Artists/>
+        <Parallax/>
         <Root store={store} history={history} />
+        <Team/>
+        <Footer/>
+        {/* <SignUp/>
+        <SignIn/> */}
     </AppContainer>,
     document.getElementById('root')
 );
