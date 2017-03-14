@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { filterTable } from '../actions';
-import ProductTable from '../components/ProductTable';
+import ArtTable from '../components/ArtTable';
 import { filterableTable } from '../styles/styles.scss';
 
 const FilterableTable = ({ filter, onFilter }) => {
@@ -14,7 +14,7 @@ const FilterableTable = ({ filter, onFilter }) => {
                 ref={node => {input = node;}}
                 onChange={() => onFilter(input.value)} />
 
-            <ProductTable filter={filter} />
+            <ArtTable filter={filter} />
         </div>
     );
 };

@@ -9,6 +9,7 @@ const App = ({ children }) =>
         <footer className={footer}>
             <Link to="/">Filterable Table</Link>
             <Link to="/about">About</Link>
+            <Link to="/formArtists">Artists Form</Link>
         </footer>
     </div>;
 

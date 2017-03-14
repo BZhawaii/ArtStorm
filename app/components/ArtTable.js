@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import ProductRow from './ProductRow';
+import ArtShow from './ArtShow';
 
 const products = [
   { category: 'paintings', price: '$49.99', artist: 'Pat Riley', name: 'Eye Ball', img: 'app/images/eyeBall.jpeg' },
@@ -21,7 +21,7 @@ const products = [
 
 ];
 
-const ProductTable = ({ filter }) => {
+const ArtTable = ({ filter }) => {
     let rows = [];
     console.log('This is filter', filter);
 
@@ -31,7 +31,7 @@ const ProductTable = ({ filter }) => {
 
         if (nameLC.indexOf(filterLC) !== -1) {
             rows.push(
-                <ProductRow key={p.name} data={p} />
+                <ArtShow key={p.name} data={p} />
             );
         }
     });
@@ -39,8 +39,8 @@ const ProductTable = ({ filter }) => {
     return <div> {rows} </div>;
 };
 
-ProductTable.propTypes = {
+ArtTable.propTypes = {
     filter: PropTypes.string
 };
 
-export default ProductTable;
+export default ArtTable;
