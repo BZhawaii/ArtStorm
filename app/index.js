@@ -21,15 +21,15 @@ const history = syncHistoryWithStore(browserHistory, store);
 
 render(
     <AppContainer>
-        <NavBar/>
-        <Hero/>
-        <Artists/>
-        <Parallax/>
+        // <NavBar/>
+        // <Hero/>
+        // <Artists/>
+        // <Parallax/>
         <Root store={store} history={history} />
-        <Team/>
-        <Footer/>
-        {/* <SignUp/>
-        <SignIn/> */}
+        // <Team/>
+        // <Footer/>
+        // {/* <SignUp/>
+        // <SignIn/> */}
     </AppContainer>,
     document.getElementById('root')
 );
