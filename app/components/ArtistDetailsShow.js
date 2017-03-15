@@ -1,5 +1,6 @@
 // ./sec/components/book/ArtistDetails.js
 import React, { PropTypes } from 'react';
+import {stormImg1} from '../styles/styles.scss';
 // import artistData from '../data/mockData';
 
 // console.log('DATA', PropTypes.object);
@@ -19,7 +20,7 @@ const ArtistDetailsShow = ({ data }) =>
       <div className="media">
         <div className="media-left">
           <a href="#">
-            <img className="media-object" src={data.img} alt="Placehold" />
+            <img className="media-object stormImg1" src={data.img} alt="Placehold" />
           </a>
         </div>
         <div className="media-body">
