@@ -1,22 +1,29 @@
 // ./src/components/book/ArtistDetailsPage.js
-import React, {PropTypes} from 'react';
+import React from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import ArtistDetails from './ArtistDetails'
+import ArtistDetailsShow from './ArtistDetailsShow';
+import artistData from '../data/mockData';
 
 class ArtistDetailsPage extends React.Component {
     constructor(props, context) {
         super(props, context);
+        console.log("Props", props);
+        console.log("Context", context);
     }
 
     render() {
-        return (
-            <div>
-                <h1>Artist Details Page</h1>
-                <ArtistDetails />
-            </div>
-        );
+      let data = artistData.filter((p) => {
+        return p.id == 1;
+      })
+
+      let p = data[0]
+      console.log('p************', p);
+
+      return <div> <ArtistDetailsShow key={p.name} data={p} /> </div>;
     }
+
+
 }
 
 const mapStateToProps = (state, ownProps) => {
