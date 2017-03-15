@@ -19,11 +19,7 @@ const ArtShow = ({ data }) =>
         </Col>
       </Row>
     </div>;
-          // <Card className="small"
-          //   header={<CardTitle image= {{data.image}} > {data.name} </CardTitle>}
-          //   actions={[<a href="#">This is a link</a>]}>
-          //   I am a simple card.  I contain small bits of info.
-          // </Card>
+      
 
 ArtShow.propTypes = {
     data: PropTypes.object
