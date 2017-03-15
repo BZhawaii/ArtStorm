@@ -23,7 +23,6 @@ const products = [
 
 const ArtTable = ({ filter }) => {
     let rows = [];
-    console.log('This is filter', filter);
 
     products.forEach((p) => {
         const nameLC = p.name.toLowerCase();
