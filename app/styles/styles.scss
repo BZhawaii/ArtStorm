@@ -1,6 +1,32 @@
-.stormImg1 {
-	width: 20%;
+.textBox {
+	border-bottom: .5px solid grey;
+	padding-top: 10px;
 }
+.floatRight {
+	float: right;
+}
+.stormButton {
+	width: 100%;
+}
+.stormImg1 {
+	width: 600px;
+	border-radius: 0 0 3px 3px;
+	-webkit-box-shadow: 0px 2px 17px -2px rgba(0,0,0,0.73);
+	-moz-box-shadow: 0px 2px 17px -2px rgba(0,0,0,0.73);
+	box-shadow: 0px 2px 17px -2px rgba(0,0,0,0.73);
+}
+.imgDiv {
+	justify-content: center;
+
+}
+.cardDiv {
+	margin-top: 40px;
+	display: flex;
+	width:100%;
+	height: 90vh;
+	justify-content: center;
+}
+
 .filterableTable {
 	padding: 20px;
 	background-color: rgb(247,247,247);

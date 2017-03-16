@@ -12,7 +12,7 @@ class SignUp extends React.Component {
           <div className="row">
             <div className="input-field col s12">
               <input placeholder="Placeholder" id="first_name" type="text" className="validate"/>
-              <label for="firstName">First Name</label>
+              <label htmlFor="firstName">First Name</label>
             </div>
 
             <div className="input-field col s12">
