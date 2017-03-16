@@ -36,7 +36,7 @@ const ArtistForm = (props) => {
             // Reset form
           e.target.reset();
       }}
-      >//closes opening form tag
+      >
         <div className="">
           <label className="" htmlFor="firstName" >First Name: </label>
           <div className="">
