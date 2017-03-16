@@ -35,3 +35,16 @@ export const fetchArt = () => {
         // });
     };
 };
+
+export const fetchArtistSuccess = (id) => {
+    return {
+      type: types.FETCH_ARTIST_SUCCESS,
+      artist
+    };
+};
+
+export const fetchArtist = () => {
+    return () => {
+      return ArtistData;
+    };
+};

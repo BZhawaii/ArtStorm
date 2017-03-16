@@ -20,7 +20,7 @@ class ArtistDetailsPage extends React.Component {
       let p = data[0]
       console.log('p************', p);
 
-      return <div> <ArtistDetailsShow key={p.name} data={p} /> </div>;
+      return <div> <ArtistDetailsShow key={p.id} data={p} /> </div>;
     }
 
 
