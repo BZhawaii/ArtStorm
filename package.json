@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "start": "node server",
+    "start": "node server.js",
     "build": "rimraf dist && webpack --config ./webpack.production.config.js --progress --profile --colors",
     "eslint": "eslint ."
   },
@@ -30,9 +30,9 @@
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
-    "redux-thunk": "2.1.0"
-  },
-  "devDependencies": {
+    "webpack-dev-server": "^1.14.1",
+    "redux-thunk": "2.1.0",
+    "webpack": "^1.13.0",
     "autoprefixer": "^6.3.6",
     "babel-cli": "6.18.0",
     "babel-core": "^6.8.0",
@@ -64,8 +64,6 @@
     "stats-webpack-plugin": "^0.3.1",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1",
     "webpack-md5-hash": "0.0.5"
   }
 }
