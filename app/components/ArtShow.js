@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import { pictureBox, multipleRow } from '../styles/styles.scss';
 import { Row, Col, Card, CardTitle, Icon } from 'react-materialize';
+import { fetchArtist } from '../actions/index';
 
 
 const ArtShow = ({ data }) =>

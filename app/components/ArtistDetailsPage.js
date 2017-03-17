@@ -10,11 +10,14 @@ class ArtistDetailsPage extends React.Component {
         super(props, context);
         console.log("Props", props);
         console.log("Context", context);
+        console.log("state");
     }
 
     render() {
+      let artistID = localStorage.getItem('artistID');
+      console.log("This is the artistID", artistID);
       let data = artistData.filter((p) => {
-        return p.id == 1;
+        return p.id == artistID;
       })
 
       let p = data[0]

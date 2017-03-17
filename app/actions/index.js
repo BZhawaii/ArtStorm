@@ -43,7 +43,9 @@ export const fetchArtistSuccess = (id) => {
     };
 };
 
-export const fetchArtist = () => {
+export const fetchArtist = (id) => {
+  console.log("HELLO, I am in fetchArtist");
+  localStorage.setItem('artistID', id);
     return () => {
       return ArtistData;
     };
