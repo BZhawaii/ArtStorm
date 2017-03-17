@@ -13,7 +13,6 @@ const artistData = [
   { id: '12', category: 'photos', info: 'Ethan is wearing a plaid shirt.  Long sleeved and looking dapper.  He has ear buds in and can not hear me.', artist: 'Ethan Doggie', name: 'Dog at Sunset', img: 'app/images/dogSunset.jpeg'},
   { id: '13', category: 'paintings', info: 'Ethan is wearing a plaid shirt.  Long sleeved and looking dapper.  He has ear buds in and can not hear me.', artist: 'Ethan Fishy', name: 'Fish Art', img: 'app/images/fishArt.jpeg'},
   { id: '14', category: 'photos', info: 'Ethan is wearing a plaid shirt.  Long sleeved and looking dapper.  He has ear buds in and can not hear me.', artist: 'Ethan Birdy', name: 'Hummingbird', img: 'app/images/hummingBird.jpeg'},
-  { id: '15', category: 'paintings', info: 'Da Vinci is a little known artist from Italy.  He has a bit of a hearing problem so try and talk into his right ear.  Try.', artist: 'Da Vinci', name: 'Mona Lisa', img: 'app/images/monaLisa.jpeg'},
   { id: '16', category: 'paintings', info: 'Da Vinci is a little known artist from Italy.  He has a bit of a hearing problem so try and talk into his right ear.  Try.', artist: 'Da Vinci', name: 'Mother Mary', img: 'app/images/motherMary.jpeg'}
 
 ];

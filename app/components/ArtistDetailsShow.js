@@ -14,7 +14,7 @@ import { Row, Col, Card, CardTitle, Icon } from 'react-materialize';
 //     // return <div> Hello </div>;
 // },
 const ArtistDetailsShow = ({ data }) =>
-<div>
+<div id="mainPart">
       <div className={cardDiv}>
         <div className={imgDiv}>
           <div>

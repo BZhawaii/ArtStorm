@@ -16,7 +16,7 @@ const ArtShow = ({ data }) =>
           <Card header={<CardTitle reveal image={data.img} waves="light"/>}
             title={data.name}
             reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-            <p><a onClick={() => fetchArtist(data.id)} href="/artistDetailsShow">This is a link</a></p>
+            <p><a onClick={() => fetchArtist(data.id)} href="/artistDetailsShow#mainPart">More Info</a></p>
           </Card>
         </Col>
       </Row>

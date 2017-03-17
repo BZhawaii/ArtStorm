@@ -1,6 +1,6 @@
 // ./src/components/book/BookForm.js
 import React, {PropTypes} from 'react';
-import { bzformPadding } from '../styles/styles.scss';
+import { bzformPadding, paddYourBottom } from '../styles/styles.scss';
 import Axios from 'axios';
 const apiUrl = 'https://art-storm.herokuapp.com/artist';
 
@@ -46,8 +46,11 @@ const ArtistForm = (props) => {
             // },
       }}
       >
+        <div className={ paddYourBottom }>
+        <h3>Please enter your profile info here.</h3>
+        </div>
 
-        <div className="">
+        <div id="mainForm">
           <label className="" htmlFor="firstName" >First Name: </label>
           <div className="">
             <input type="text" id="firstName" name="firstName" ref={node => {firstName = node;}} className="" />
